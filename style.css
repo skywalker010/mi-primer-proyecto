@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #a01212,#575151 )
+}
+
+
+form{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: white;
+    padding: 60px 30px; 
+    margin: auto;
+}
+form label { 
+    margin-bottom: 25px;
+}
+
+form label input{ 
+    outline: none;
+    border: none;
+    color: rgb(24, 21, 18);
+    border-bottom:1px solid #a51818 ;
+    padding: 1%;
+    font-size: 15px;
+}
+
+form label input::placeholder{
+    color: rgb(4, 36, 13);
+}
+
+.titulo{
+    font-size: 20px;
+}
+
+form button{ 
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: rgb(212, 59, 59)
+    
+    
+}
+
